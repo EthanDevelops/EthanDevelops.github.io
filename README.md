@@ -7,8 +7,6 @@ Hosted by: GitHub Pages & GitHub Inc.
 
 # Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
 
 	Icons:
 		Font Awesome (fontawesome.io)
