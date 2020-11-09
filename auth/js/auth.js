@@ -1,4 +1,4 @@
 const urlParams = new URLSearchParams(window.location.search);
 const myParam = urlParams.get('email');
 
-document.getElementById('emailInput').value = myParam
+document.getElementById('email').value = myParam
