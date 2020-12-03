@@ -1,9 +1,9 @@
 # EthanDevelops Website
-Website for https://ethan.bennun.me
-Template by: html5up
-Made by: EthanDevelops
-Protection by: Cloudflare
-Hosted by: GitHub Pages & GitHub Inc.
+- Website for https://ethan.bennun.me
+- Template by: html5up
+- Made by: EthanDevelops
+- Protection by: Cloudflare
+- Hosted by: GitHub Pages & GitHub Inc.
 
 # Credits:
 
