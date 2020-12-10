@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>EthanDevelops</title>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<script defer src="/assets/js/console.js"></script>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="/index.html">EthanDevelops</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li>
+								<a href="#">Layouts</a>
+								<ul>
+									<li><a href="/main/left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="/main/right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="/main/no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="/snake/">Snake Game</a></li>
+							<li><a href="/auth/auth.html" class="button primary">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<video
+					id="my-video"
+					class="video-js"
+					controls
+					preload="auto"
+					width="640"
+					height="264"
+					poster="MY_VIDEO_POSTER.jpg"
+					data-setup="{}"
+				  >
+					<source src="https://livestream.bennun.me:443/hls/stream.m3u8" type="video/mp4" />
+					<p class="vjs-no-js">
+					  To view this video please enable JavaScript, and consider upgrading to a
+					  web browser that
+					  <a href="https://videojs.com/html5-video-support/" target="_blank"
+						>supports HTML5 video</a
+					  >
+					</p>
+				  </video>			
+                </div>
+					
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; EthanDevelops. All rights reserved.</li><li>Template: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/assets/js/jquery.dropotron.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+            <script src="/assets/js/main.js"></script>
+            <script src="donate.js"></script>
+			<script src="https://vjs.zencdn.net/7.10.2/video.js"></script>
+			<script src="/videos/live/videojs-http-streaming.min.js"></script>
+			<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCl33Ux2M8HGy6rJTZNky2CEN7zr4EZ4UM",
+    authDomain: "ethanbennunme.firebaseapp.com",
+    databaseURL: "https://ethanbennunme.firebaseio.com",
+    projectId: "ethanbennunme",
+    storageBucket: "ethanbennunme.appspot.com",
+    messagingSenderId: "920643683167",
+    appId: "1:920643683167:web:d1ef30f7abebb389ffecea",
+    measurementId: "G-QK1R74E67J"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+	</body>
+</html>
