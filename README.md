@@ -4,6 +4,7 @@
 - Made by: EthanDevelops
 - Protection by: Cloudflare
 - Hosted by: GitHub Pages & GitHub Inc.
+- Copyright EthanDevelops 2021
 
 # Credits:
 
